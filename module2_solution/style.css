@@ -1,52 +1,57 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.row {
+/* .row {
     width: 100%;
 
-}
+} */
 
 h1 {
     text-align: center;
-}
-
-#box-1 {
-    background-color: grey;
-    border: 1px solid black;
     margin: 20px;
     padding: 10px;
-    width: 400px;
 }
 
-#box-2 {
+.section {
+    position: relative;
     background-color: grey;
     border: 1px solid black;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
-    width: 400px;
+    /* width: 400px; */
+    padding-top: 45px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-#box-3 {
-    background-color: grey;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 10px;
-    width: 400px;
+h3 {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    margin: auto;
+    padding: center;
+    width: 100px;
+    height: 25px;
+    border:1px solid black;
+    text-align:center;
 }
 
-#p1 {
-    background-color: rgb(224, 146, 172);
-    border: 1px solid black;
+.s1{
+    background-color: rgb(224, 146, 172);         
+    color: black;
 }
 
-#p3 {
-    background-color: rgb(179, 68, 49);
-    border: 1px solid black;
+.s2{
+    background-color: rgb(187, 64, 64);         
+    color: white;
 }
 
-#p5 {
-    background-color: darkkhaki;
-    border: 1px solid black;
+.s3{
+    background-color: rgb(235, 217, 137);         
+    color: black;
 }
 
 @media (min-width:992px) {
@@ -64,8 +69,7 @@ h1 {
     .col-lg-11,
     .col-lg-12 {
         float: left;
-        border: 1px solid black;
-    }
+        }
 
     .col-lg-1 {
         width: 8.33%;
@@ -131,7 +135,6 @@ h1 {
     .col-md-11,
     .col-md-12 {
         float: left;
-        border: 1px solid black;
     }
 
     .col-md-1 {
@@ -183,7 +186,7 @@ h1 {
     }
 }
 
-@media (max-width:767px) {
+***{@media (max-width:767px) {
 
     .col-sm-1,
     .col-sm-2,
@@ -198,7 +201,6 @@ h1 {
     .col-sm-11,
     .col-sm-12 {
         float: left;
-        border: 1px solid black;
     }
 
     .col-md-1 {
@@ -248,4 +250,5 @@ h1 {
     .col-md-12 {
         width: 100%;
     }
+}
 }
